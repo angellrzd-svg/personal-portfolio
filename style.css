@@ -67,16 +67,19 @@ footer{
 .about-container{
 display:flex;
 align-items:center;
-gap:40px;
-margin-top:20px;
+justify-content:center;
+gap:60px;
+margin-top:40px;
 }
 
 .profile-pic{
-width:180px;
+width:260px;
 border-radius:50%;
 border:3px solid #58a6ff;
 }
 
 .about-text{
-max-width:500px;
+max-width:600px;
+font-size:18px;
+line-height:1.6;
 }
